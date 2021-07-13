@@ -1,0 +1,109 @@
+/*-------------1st section design------ 
+-------------------------------------*/
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size:64px;
+    margin-bottom: 27px;
+    
+}
+.player-info{
+    
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    line-height:26px;
+} 
+
+.get-live-link{
+    display:flex;
+    background-color:#2D25A0;
+    transition: background-color 5s;
+    
+}
+.get-live-link:hover{
+    background-color:wheat;
+    
+}
+
+/* hiding after hovering */
+
+.get-live-link:hover .banner{
+    display: none;
+}
+.get-live-link:hover .link{
+    display:none;
+}
+
+
+.main-title{
+    margin-left: 156px;
+    margin-top: 154px;
+    margin-bottom: 169px;
+    
+}
+
+
+.link{
+    background-color:#E02C6D;
+    text-decoration: none;
+    
+}
+
+.get-live-link img{
+    width: 556px;
+    height: 438px;
+
+}
+.subscription{
+    display: none;
+    
+
+}
+.banner{
+    margin-top: 135px;
+    margin-bottom: 86px;
+    margin-right: 140px;
+    margin-left: 102px;
+}
+
+.get-live-link:hover .subscription{
+    display: block;
+    align-items: center;
+    
+    background-color:thistle;
+    width: 400px;
+    
+}
+
+/* Info about players */
+
+.top-players{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+.player{
+    display:flex;
+    align-items:flex-start;
+    
+}
+
+.player img{
+    width: 300px;
+    height: 256px;
+}
+
+.player-info{
+    width: 300px;
+    height: 154px;
+}
