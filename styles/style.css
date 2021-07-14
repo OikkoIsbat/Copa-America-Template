@@ -139,11 +139,15 @@ h3{
  -----------------------------------*/
 
  
+
+
  h2{
 
      margin-left: 600px;
      
  }
+  
+  /* Match schedule Table */
 
  .schedule{
      background-color: lightgoldenrodyellow;
@@ -161,6 +165,9 @@ td, th{
 .middle-title{
     margin-left: 450px;
 }
+
+/* All Great Stadiums */
+
 .stadium-info{
     background-color:lightgray;
 }
@@ -217,6 +224,9 @@ Media Queries
 ----------------*/
 
 @media only screen and (max-width:688px) {
+
+    /* Media query of first section */
+
     h1{
         font-size: 36px;
         
@@ -246,6 +256,9 @@ Media Queries
         
         width: 100%;
     }
+    
+    /* Media Players */
+
     .Legend{
         
         width:100%;
@@ -273,6 +286,7 @@ Media Queries
         margin-left: 50px;
     }
     
+    /* Media query of Footer */
 
     .logo{
         margin:0px;
