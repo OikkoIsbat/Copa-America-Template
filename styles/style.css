@@ -56,15 +56,19 @@ h3{
 }
 
 
-.link{
+.link, .link-2{
     background-color:#E02C6D;
     text-decoration: none;
     
+    
 }
 
+
+
 .get-live-link img{
-    width: 556px;
-    height: 438px;
+    /* width: 556px; */
+    width: 100%;
+    height: 577px;
 
 }
 .subscription{
@@ -83,21 +87,23 @@ h3{
     display: block;
     align-items: center;
     
-    background-color:thistle;
+    background-color:;
     width: 400px;
     
 }
 
 /* Info about players */
 
-
-
+.Legend{
+    background-color:orangered;
+}
 .players{
     margin-top:70px;
     margin-left: 180px;
-    margin-right:210px;
+    margin-right:180px;
     display:grid;
     grid-template-columns:repeat(3,1fr);
+    background-color: orange;
     
 
 }
@@ -111,7 +117,7 @@ h3{
     height: 456px;
 }
 
-.player img{
+.player img, .stadium img{
     width: 300px;
     height: 256px;
     padding-left: 15px;
@@ -123,6 +129,56 @@ h3{
     padding-left: 15px;
     padding-bottom: 33px;;
     padding-right: 15px;
+}
+
+/* ----------Extra Section-----------
+ -----------------------------------*/
+
+ 
+ h2{
+     margin-left: 600px;
+     
+ }
+
+ .schedule{
+     background-color: lightgoldenrodyellow;
+ }
+ table{
+     border-collapse: collapse;
+     margin-left: 320px;
+ }
+td, th{
+    border: 1px solid yellowgreen;
+    padding: 0 30px;
+}
+
+.middle-title{
+    margin-left: 450px;
+}
+.stadium-info{
+    background-color:lightgray;
+}
+.stadiums{
+    
+    margin-top:70px;
+    margin-left: 180px;
+    margin-right:180px;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    
+
+}
+.stadium{
+    box-shadow:2px 2px 2px 2px lavender;
+    background-color:blanchedalmond;
+    margin-right:30px;
+    margin-bottom: 27px;
+    border: 1px solid gainsboro;
+    width: 330px;
+    height: 456px;
+}
+.stadium p{
+    margin-left: 16px;
 }
 
 /* -----designing footer---- */
@@ -149,3 +205,31 @@ h3{
     margin-right:602px;
 
 }
+
+/* -----------
+Media Queries 
+----------------*/
+
+@media only screen and (max-width:688px) {
+    .Legend{
+        background-color: palegreen;
+        width:100%;
+    }
+    .player{
+        flex-direction: column;
+    }
+    .players, .stadiums{
+        grid-template-columns:repeat(1,1fr);
+    }
+    table{
+        margin:0px;
+    }
+    h2{
+        margin-left:200px;
+    }
+    .middle-title{
+        margin-left: 50px;
+    }
+    
+}
+
