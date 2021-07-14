@@ -15,6 +15,9 @@ h1{
     margin-bottom: 27px;
     
 }
+h3{
+    padding-left:15px;
+}
 .player-info{
     
     font-family: 'Poppins', sans-serif;
@@ -87,23 +90,62 @@ h1{
 
 /* Info about players */
 
-.top-players{
+
+
+.players{
+    margin-top:70px;
+    margin-left: 180px;
+    margin-right:210px;
     display:grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns:repeat(3,1fr);
     
+
 }
 .player{
-    display:flex;
-    align-items:flex-start;
-    
+    box-shadow:2px 2px 2px 2px lavender;
+    background-color:white;
+    margin-right:30px;
+    margin-bottom: 27px;
+    border: 1px solid gainsboro;
+    width: 330px;
+    height: 456px;
 }
 
 .player img{
     width: 300px;
     height: 256px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px; 
 }
 
 .player-info{
-    width: 300px;
-    height: 154px;
+    padding-left: 15px;
+    padding-bottom: 33px;;
+    padding-right: 15px;
+}
+
+/* -----designing footer---- */
+
+.logo{
+    margin-left: 475px;
+    margin-right:481px;
+}
+
+.logo img{
+    width: 483px;
+    height:110px;
+}
+ .ratings{
+     margin-right: 638px;
+     margin-left:631px;
+ }
+.social{
+    width: 40px;
+    
+}
+.copyright{
+    margin-left: 605px;
+    margin-right:602px;
+
 }
