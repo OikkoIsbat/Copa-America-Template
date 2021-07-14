@@ -140,6 +140,7 @@ h3{
 
  
  h2{
+
      margin-left: 600px;
      
  }
@@ -149,12 +150,12 @@ h3{
  }
  table{
      border-collapse: collapse;
-     margin-left: 320px;
+     margin-left: 420px;
      
  }
 td, th{
     border: 1px solid yellowgreen;
-    padding: 0 30px;
+    padding: 0 10px;
 }
 
 .middle-title{
@@ -220,6 +221,10 @@ Media Queries
         font-size: 36px;
         
     }
+    h2{
+        
+        font-size: 24px;
+    }
     .main-title{
         margin-top: 112px;
         margin-left: 16px;
@@ -253,9 +258,12 @@ Media Queries
         margin-left:0px;
         
     }
+    .schedule{
+        width:100%;
+    }
     table{
         margin:0px;
-        
+        width:100%;
     }
     h2{
         margin-left:200px;
@@ -269,15 +277,15 @@ Media Queries
         margin:0px;
     }
     .logo img{
-        width: 100%;
+        width: 50%;
     }
     .ratings{
-        margin-left: 250px;
-        margin-right:40px;
+        margin-left: 150px;
+        margin-right: 20px;
 
     }
     .copyright{
-        margin-left:230px;
+        margin-left: 130px;
         margin-right:40px;
     }
     
